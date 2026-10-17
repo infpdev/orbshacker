@@ -211,7 +211,7 @@ def _resolve_version() -> str:
 
 
 # ── App identity ──────────────────────────────────────────────────────────────
-DEVELOPER = "Strykey / Daniel Pires / Pannenkoekisus"
+DEVELOPER = "Strykey / Daniel Pires / pannenkoekissus"
 
 _version_cache: str | None = None
 
@@ -226,9 +226,9 @@ def __getattr__(name: str) -> Any:
 
 
 # ── GitHub repo ───────────────────────────────────────────────────────────────
-GITHUB_REPO_OWNER = "DanielPires2000"
-GITHUB_REPO_NAME = "orbshacker"
-REPO_URL = f"https://github.com/{GITHUB_REPO_OWNER}/{GITHUB_REPO_NAME}"
+GITHUB_REPO_OWNER = "pannenkoekissus"
+GITHUB_REPO_NAME  = "orbshacker"
+REPO_URL          = f"https://github.com/{GITHUB_REPO_OWNER}/{GITHUB_REPO_NAME}"
 
 # ── Network endpoints (internal – not in settings.py) ─────────────────────────
 DISCORD_API_URL = "https://discord.com/api/v9/applications/detectable"
